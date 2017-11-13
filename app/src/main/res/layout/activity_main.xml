@@ -16,4 +16,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="音频的学习"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动内置播放器"
+        android:onClick="startInnerMusicPlayer"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动定制播放器"
+        android:onClick="startCustom"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动音频浏览器"
+        android:onClick="startBrowser"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="后台播放"
+        android:onClick="startBackground"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放网络音频"
+        android:onClick="playNetMusic"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放http流音频"
+        android:onClick="playHttpStream"/>
+
 </LinearLayout>

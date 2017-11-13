@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AudioApi</string>
+    <string name="title_activity_my_audio_player">MyAudioPlayer</string>
 </resources>
