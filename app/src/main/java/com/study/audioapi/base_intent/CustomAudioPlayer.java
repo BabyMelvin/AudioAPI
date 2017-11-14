@@ -1,4 +1,4 @@
-package com.study.audioapi;
+package com.study.audioapi.base_intent;
 
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.study.audioapi.R;
 
 public class CustomAudioPlayer extends AppCompatActivity implements MediaPlayer.OnCompletionListener,View.OnClickListener,View.OnTouchListener{
     private static final String TAG = "CustomAudioPlayer";

@@ -12,6 +12,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.study.audioapi.base_intent.AudioBrowser;
+import com.study.audioapi.base_intent.CustomAudioPlayer;
+import com.study.audioapi.base_intent.MyAudioPlayer;
+import com.study.audioapi.http.AudioHttpPlayer;
+import com.study.audioapi.http.HTTPAudioPlaylistPlayer;
+import com.study.audioapi.record.IntentAudioRecorder;
+import com.study.audioapi.record.MyMediaRecorder;
+
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
@@ -61,5 +69,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void playHttpStream(View view) {
         startActivity(new Intent(this,HTTPAudioPlaylistPlayer.class));
+    }
+
+    public void startIntentRecord(View view) {
+        startActivity(new Intent(this, IntentAudioRecorder.class));
+    }
+
+    public void startMediaRecorder(View view) {
+        startActivity(new Intent(this, MyMediaRecorder.class));
+    }
+
+    public void startAudioRecorder(View view) {
+
     }
 }

@@ -1,4 +1,4 @@
-package com.study.audioapi;
+package com.study.audioapi.base_intent;
 
 import android.Manifest;
 import android.content.Intent;
@@ -11,6 +11,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.study.audioapi.PermissionUtils;
+import com.study.audioapi.R;
 
 import java.io.File;
 

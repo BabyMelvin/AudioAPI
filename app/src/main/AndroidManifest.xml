@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:allowBackup="true"
@@ -20,13 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MyAudioPlayer"
+            android:name=".base_intent.MyAudioPlayer"
             android:label="@string/title_activity_my_audio_player"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".CustomAudioPlayer">
+        <activity android:name=".base_intent.CustomAudioPlayer">
         </activity>
-        <activity android:name=".AudioBrowser">
+        <activity android:name=".base_intent.AudioBrowser">
         </activity>
         <activity android:name=".BackgroundAudio">
         </activity>
@@ -39,7 +40,19 @@
 
         <activity android:name=".AudioHttpPlayer">
         </activity>
-        <activity android:name=".HTTPAudioPlaylistPlayer">
+        <activity android:name=".http.HTTPAudioPlaylistPlayer">
+        </activity>
+        <activity android:name=".record.IntentAudioRecorder">
+        </activity>
+        <activity android:name=".record.MyMediaRecorder">
+        </activity>
+        <activity android:name=".record.MyAudioRecorder">
+        </activity>
+        <activity android:name=".synthesis.AudioSynthesis">
+        </activity>
+        <activity android:name=".synthesis.FingerSynthesis">
+        </activity>
+        <activity android:name=".process.ProcessingAudio">
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.study.audioapi;
+package com.study.audioapi.http;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.study.audioapi.R;
 
 import java.io.IOException;
 

@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.study.audioapi.AudioBrowser">
+    tools:context="com.study.audioapi.base_intent.AudioBrowser">
     <!--ListActivity中必须有一个ListView whose id attribute is 'android.R.id.list'-->
     <ListView
         android:id="@android:id/list"
